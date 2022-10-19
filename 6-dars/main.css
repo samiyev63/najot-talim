@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.article{
+    text-align: center;
+}
+.article-line{
+    padding: 20px ;
+}
+.article-item{
+list-style-type: none;
+display: inline-block;
+width: 365px;
+margin-right: 110px;
+background-color: green;
+}
+.article-h3{
+    padding: 16px;
+    font-size: 21px !important;
+}
+.article-p{
+    padding: 16px;
+}
+a{
+    padding: 16px;
+}
+.atricle-img{
+    width: 100%;
+}
+.article-com{
+    padding: 20px ;
+    margin: 20px;
+}

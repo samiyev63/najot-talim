@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+*{
+  margin: 0;
+}
+
+.kunblock{
+    margin: 2%;
+}
+
+.kunblock-list{
+
+
+list-style-type: none;
+display: inline-block;
+font-size: 17px;
+padding: 12px 2px;
+margin: 0 20px;
+margin-right: 0 50px;
+}
+.kunblock-imgs{
+    width: 100%;
+}
+.kunblockitems{
+    font-size: 9px;
+    font-family: 'Rubik';
+}.kunblock-text{
+    padding: 0px 0px 10px 0px;
+}
+/* psot */
+.kunpost1{
+    margin: 5%;
+    display: flex;
+    background-color: #EFBA542E;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: 'Rubik';
+}
+.kunblock-icon{
+    padding-right: 30px ;
+}
+
+.kunpost-text{
+   padding-right: 230px;
+   padding-top: 8px;
+   font-size: 20px;
+}
+.kun-button{
+    background-color: #FE5C28;
+    color: aliceblue;
+    margin-left: 180px;
+    border-radius: 11px;
+    padding: -20px;
+}
+.footer-heading-title{
+    font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+padding-left: 70px;
+
+color: #000000;
+}
+.footer{
+    padding-left: 70px;
+}
+.footer-center{
+    display: inline-flex;
+}
+.footer-right{
+    width: 500px;
+    padding-left: 20px;
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 20px;
+}

@@ -1,0 +1,43 @@
+.card{
+    border: 1px solid red;
+    border-color: black;
+
+    &__title {
+        color: red;
+        &:hover{
+            color: blue;
+        }
+    }
+
+    &__btn{
+        color: white;
+        border: none;
+        overflow: hidden;
+    }
+}
+.parent{
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    overflow:hidden;
+    overflow-x: scroll;
+    &__child{
+        flex-shrink: 0;
+        width: 400px;
+        height: 300px;
+        background-color: red;
+        border: 1px solid black;
+    }
+}
+div *{
+    color: red;
+}
+.main_div > p {
+    color: red;
+}
+// .inner_div + p{
+//     color: blue;
+// }
+.inner_div ~ p {
+    color: orange;
+}

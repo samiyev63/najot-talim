@@ -1,0 +1,28 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+.container{
+    padding: 20px;
+    max-width: 1143px;
+}
+.testimonial-title{
+    text-align: center;
+   
+    width: 600px;
+    height: 100px;
+}
+.testimonial-title h1{
+    font-size: 37px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 54px;
+    text-align: center;
+    padding-bottom: 25px;
+}
+.testimonial-img{
+    display: flex;
+    
+}

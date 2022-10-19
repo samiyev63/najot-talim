@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+body{
+    font-family: 'Mulish';
+    background-color:rgb(79, 74, 74) ;
+}
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+.become-container{
+    max-width: 1495px;
+    width: 100%;
+   
+    margin: 2% auto;
+    background-color: rgb(255, 255, 255);
+    height: 900px;
+    display: flex;
+    justify-content: space-between; 
+}
+.become-title{
+    
+    padding: 93px 50px 15px 50px;
+}
+.become-img{
+    width: 600px;
+    height: 900px;
+}
+h1{
+    font-size: 50px;
+}
+p{
+    font-size:18px;
+    padding-top: 20px;
+    width: 500px;
+}
+.become-items-img{
+    width: 50px;
+    height: 105px;
+}
+.become_items{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+  
+  .become-items ul {
+    gap: 80px;
+     margin: 13%;
+  }
+  
+  .become-items li {
+    margin: 50px 0;
+    display: flex;
+    align-items: center;
+    padding: 20px 20px;
+    border: 1px #fff;
+    
+  }
+  
+  .become-items li:hover{
+      border: 1px dashed black;
+  }
+  
+  .become-items a {
+    font-size: 19px;
+    color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    text-align: center;
+    transition: all 0.2s;
+  }
+.become-items img {
+    width: 45px;
+  }
+  
+.footer{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    font-size: 18px;
+}
+
+.footer a{
+    color: rgba(0, 0, 0, 0.5);
+}
+.footer a:hover{
+    color: rgb(77, 77, 77);
+}

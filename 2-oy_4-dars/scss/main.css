@@ -1,0 +1,42 @@
+.card {
+  border: 1px solid red;
+  border-color: black;
+}
+.card__title {
+  color: red;
+}
+.card__title:hover {
+  color: blue;
+}
+.card__btn {
+  color: white;
+  border: none;
+  overflow: hidden;
+}
+
+.parent {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  overflow: hidden;
+  overflow-x: scroll;
+}
+.parent__child {
+  flex-shrink: 0;
+  width: 400px;
+  height: 300px;
+  background-color: red;
+  border: 1px solid black;
+}
+
+div * {
+  color: red;
+}
+
+.main_div > p {
+  color: red;
+}
+
+.inner_div ~ p {
+  color: orange;
+}/*# sourceMappingURL=main.css.map */
