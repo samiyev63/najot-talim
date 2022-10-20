@@ -1,0 +1,9 @@
+table{
+    height: 30vh;
+    width: 100vh;
+    text-align: center;
+    
+}
+th ,td{
+    border: 0.1px solid black;
+}
